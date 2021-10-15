@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+*{
+    background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section{
+    background-color: white;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    width: 400px;
+    
+}
+
+.image{
+    width:100%;
+    position: relative;
+}
+
+.details{
+    height: 100px;
+    padding:25px;
+}
